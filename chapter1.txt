@@ -1,0 +1,1 @@
+Git users can broadly be grouped into four categories for the purposes of describing here a small set of useful command for everyday Git.
