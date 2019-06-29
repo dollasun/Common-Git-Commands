@@ -35,6 +35,11 @@ to add a commit message. eg; git commit -m " this is the first part".
 
 > git checkout: this is used to revert to the last committed version of a file.
 
+> rm .git/index.lock ; this is used to remove error.
 
+> to push on github: "git remote add origin" and then the repo address then hit enter. eg;
+	git remote add origin https://github.com/dollasun/Git-Commands.git
+
+>to push to remote repository: "git push -u origin master"
 
 
