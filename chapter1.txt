@@ -1,1 +1,40 @@
-Git users can broadly be grouped into four categories for the purposes of describing here a small set of useful command for everyday Git.
+Git users can broadly be grouped into four categories for the purposes of describing
+here a small set of useful command for everyday Git.
+
+>>Individual Developer (Standalone): commands are essential for anybody who makes a commit,
+ even for somebody who works alone.
+
+>>If you work with other people, you will need commands listed in the Individual Developer
+ (Participant) section as well.
+
+>>People who play the Integrator role need to learn some more commands in addition to the above.
+
+>>Repository Administration commands are for system administrators who are responsible for 
+the care and feeding of Git repositories.
+
+
+Individual Developer (Standalone):
+A standalone individual developer does not exchange patches with other people,
+and works alone in a single repository, using the following commands.
+
+> git init: to create or initialize a new repository.
+
+> git add: this is used to add file to the local repo in other to begin to track the file,
+just type 'git add' plus the file name and extention the hit enter. eg; git add chapter1.txt.
+note; using "git add ." adds everything in your current directory.
+
+> git status: this is to see whats inside your staging area.
+
+> git diff: this is similar to git status but abit different, this command logs the difference
+between the last commits on the terminal.
+
+> git commit: this is used to commit a file under version control, the "-m" flag is used
+to add a commit message. eg; git commit -m " this is the first part".
+
+> git log: this is used to see the commit you have made or what happened.
+
+> git checkout: this is used to revert to the last committed version of a file.
+
+
+
+
