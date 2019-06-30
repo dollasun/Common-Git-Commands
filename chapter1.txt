@@ -42,4 +42,8 @@ to add a commit message. eg; git commit -m " this is the first part".
 
 >to push to remote repository: "git push -u origin master"
 
+> remove an already added file to the staging area: git rm --cached -r "then the file name and extension".
+	to remove all the files in the staging area; git rm --cached -r .
+	the ' r ' in the command stands for recursive.
+
 

@@ -1,0 +1,13 @@
+GIT - ignore Commands
+
+the essence of git-ignore is to help you ignore or isolate sensitive information from being posted on
+a public platform like, information like passwords, API keys, etc.
+
+STEPS
+
+> create a .gitignore file.
+
+> to add a file to gitignore: write each of the files to be ignored and there extension on a new line
+in the gitignore file. you can make comments inside the gitignore file using #'followed by the text'.
+and also select files to be added to the gitignore file using wildcard by typing *'followed by the file extension'.
+eg; *.txt "this will igore all the files with the .txt extension". 
