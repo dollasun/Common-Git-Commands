@@ -1,0 +1,16 @@
+ GIT Cloning
+
+> git clone command is used to pull down all the different version of
+ your files from the remote repository down to your workng directory.
+
+to initiate a get clone type the command git clone "follow by the url of the remote repository"
+
+
+MERGING AND BRANCHING.
+
+to create a branch in your working directory; use the command git branch "followed by the name you wish to call the new branch"
+to check all your branches of a file; use the command git branch.
+to switch to a branch; use the command git checkout "followed by the name of the branch".
+
+to merge branch: migrate to the master branch using "git checkout master".
+then use; git merge "followed by the branch name", to merge with the master branch.

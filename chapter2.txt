@@ -11,3 +11,6 @@ STEPS
 in the gitignore file. you can make comments inside the gitignore file using #'followed by the text'.
 and also select files to be added to the gitignore file using wildcard by typing *'followed by the file extension'.
 eg; *.txt "this will igore all the files with the .txt extension". 
+
+
+!Important note: to exit vim editor on terminal type ":q!"
