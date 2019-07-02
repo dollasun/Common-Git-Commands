@@ -49,6 +49,9 @@ git log --patch; this shows a very detail log of information.
 > git rm 'followed by the file name you wish to removed': this commamd is used to
 remove file from git
 
+>to rename a file: use the command; git mv 'follow the name of the file' and then 'the new name'.
+eg; git mv alien.txt spaceship.txt
+
 > rm .git/index.lock ; this is used to remove error.
 
 > to open a file from git : use the command; open -a ' followed by the text editor name and then the filename and extension'
@@ -64,7 +67,17 @@ eg; open -a notepad chapter1.txt
 	to remove all the files in the staging area; git rm --cached -r .
 	the ' r ' in the command stands for recursive.
 
+> the 'git stash' command: this is used to save file you dont want to commit in a work WIP "work in progress terminal".
+to see all the list of work in progress file, use the command; git stash list
+>'git stash show'; gives a better descriptive information of all the stashed files.
+> 'git stash pop': this command is used to drop stashed files from the WIP area back to their original
+file directory.
 
+> the 'git reset' command : this help to move commits back to the staging area or working directory.
+the various git reset command are;
+>> git reset --soft: this moves file from the local repo to the staging area.
+>> git reset --mixed (or 'git reset'): this moves file from the local repo back to the working directory.
+>> git reset --hard: this moves file from the local repo to the trash.
 
 > the "man git" command pops up all the everyday git commands you need to know on terminal.
 
